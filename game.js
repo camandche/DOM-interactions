@@ -50,7 +50,7 @@ var greenDotCount = document.getElementsByClassName('green').length;
 totals.green = greenDotCount
 
 var hideDotCount = document.getElementsByClassName('invisible').length;
-totals.hide = hideDotCount
+totals.invisible = hideDotCount
 
   // Once you've done the counting, this function will update the display
   displayTotals(totals)
